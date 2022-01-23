@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(185, 49%, 75%);
+  font-size: 24px;
+  font-family: "Space Mono", monospace;
+  padding: 3rem 5rem;
+}
+
+.body--main--secone--sectwo__txt {
+  color: hsl(186, 14%, 43%);
+  font-size: 14px;
+}
+.body--main--secone--sectwo__inp {
+  padding: 7px;
+  text-align: right;
+  outline: none;
+  border: none;
+  background-color: rgb(235, 232, 232);
+  border-radius: 5px;
+  width: 95%;
+}
+.body--main--secone--sectwo__cont {
+  position: relative;
+}
+.body--main--secone--sectwo--cont__svg {
+  position: absolute;
+  top: 14px;
+  left: 7px;
+}
+
+.body--main--secone--sectwo__pourc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.body--main--secone--sectwo--pourc__nbr {
+  padding: 3px 0.5rem;
+  border-radius: 5px;
+  background-color: hsl(183, 100%, 15%);
+  text-align: center;
+}
+
+.body--main--secone--sectwo--pourc--nbr__hed {
+  color: white;
+  margin: 0;
+}
+.body--main--secone--sectwo--pourc__cstm {
+  display: inline;
+  padding: 3px 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(235, 232, 232);
+  text-align: center;
+}
+.body--main--secone--secthree__txt {
+  color: white;
+  font-size: 14px;
+}
+
+.body--main--secone--secthree__flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body--main--secone__sectwo {
+  flex: 0.6;
+}
+.body--main--secone__secthree {
+  border-radius: 20px;
+  padding: 2rem 2rem 0.5rem 2rem;
+  background-color: hsl(183, 100%, 15%);
+  flex: 0.4;
+}
+.flx {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 30px;
+  margin-top: 3rem;
+  text-align: left;
+}
+.body__main__secone {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: hsl(183, 93%, 18%);
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+}
