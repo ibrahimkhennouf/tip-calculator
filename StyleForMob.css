@@ -21,9 +21,8 @@ body {
   color: hsl(183, 93%, 18%);
 }
 .body--main--secone--sectwo__inp:hover {
-  border: 2px solid hsl(172, 67%, 45%);
+  outline: 2px solid hsl(172, 67%, 45%);
   cursor: pointer;
-  box-sizing: border-box;
 }
 .body--main--secone--sectwo__cont {
   position: relative;
@@ -64,7 +63,7 @@ body {
   text-align: center;
 }
 .body--main--secone--sectwo--pourc__cstm:hover {
-  border: 2px solid hsl(172, 67%, 45%);
+  outline: 2px solid hsl(172, 67%, 45%);
   cursor: pointer;
 }
 
