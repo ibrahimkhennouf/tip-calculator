@@ -2,7 +2,7 @@ body {
   background-color: hsl(185, 49%, 75%);
   font-size: 24px;
   font-family: "Space Mono", monospace;
-  padding: 3rem 5rem;
+  padding: 1rem 5rem;
 }
 
 .body--main--secone--sectwo__txt {
@@ -16,7 +16,14 @@ body {
   border: none;
   background-color: rgb(235, 232, 232);
   border-radius: 5px;
-  width: 95%;
+  width: 98%;
+  font-size: 24px;
+  font-family: "Space Mono", monospace;
+  color: hsl(183, 93%, 18%);
+}
+.body--main--secone--sectwo__inp:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+  cursor: pointer;
 }
 .body--main--secone--sectwo__cont {
   position: relative;
@@ -40,6 +47,11 @@ body {
   text-align: center;
 }
 
+.body--main--secone--sectwo--pourc__nbr:hover {
+  background-color: hsl(172, 67%, 45%);
+  cursor: pointer;
+}
+
 .body--main--secone--sectwo--pourc--nbr__hed {
   color: white;
   margin: 0;
@@ -51,6 +63,11 @@ body {
   background-color: rgb(235, 232, 232);
   text-align: center;
 }
+.body--main--secone--sectwo--pourc__cstm:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+  cursor: pointer;
+}
+
 .body--main--secone--secthree__txt {
   color: white;
   font-size: 14px;
@@ -62,13 +79,13 @@ body {
   justify-content: space-between;
 }
 .body--main--secone__sectwo {
-  flex: 0.6;
+  flex: 0.55;
 }
 .body--main--secone__secthree {
   border-radius: 20px;
   padding: 2rem 2rem 0.5rem 2rem;
   background-color: hsl(183, 100%, 15%);
-  flex: 0.4;
+  flex: 0.45;
 }
 .flx {
   display: flex;
@@ -91,4 +108,8 @@ body {
   border: none;
   outline: none;
   margin-top: 2rem;
+}
+.btn:hover {
+  background-color: hsl(172, 67%, 45%);
+  cursor: pointer;
 }
