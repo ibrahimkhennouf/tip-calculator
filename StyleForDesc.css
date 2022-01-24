@@ -20,11 +20,11 @@ body {
   font-size: 24px;
   font-family: "Space Mono", monospace;
   color: hsl(183, 93%, 18%);
-  box-sizing: border-box;
 }
 .body--main--secone--sectwo__inp:hover {
   border: 2px solid hsl(172, 67%, 45%);
   cursor: pointer;
+  box-sizing: border-box;
 }
 .body--main--secone--sectwo__cont {
   position: relative;
