@@ -53,7 +53,7 @@
               </svg>
               <input
                 class="body--main--secone--sectwo__inp"
-                type="text"
+                type="number"
                 placeholder="0"
                 id="inpbill"
               />
@@ -61,27 +61,60 @@
             <p class="body--main--secone--sectwo__txt">Select Tip %</p>
             <div class="body--main--secone--sectwo__pourc">
               <div class="body--main--secone--sectwo--pourc__nbr">
-                <h3 class="body--main--secone--sectwo--pourc--nbr__hed">5%</h3>
+                <h3
+                  class="body--main--secone--sectwo--pourc--nbr__hed"
+                  onclick="tips()"
+                >
+                  5%
+                </h3>
               </div>
               <div class="body--main--secone--sectwo--pourc__nbr">
-                <h3 class="body--main--secone--sectwo--pourc--nbr__hed">10%</h3>
+                <h3
+                  class="body--main--secone--sectwo--pourc--nbr__hed"
+                  onclick="tips()"
+                >
+                  10%
+                </h3>
               </div>
               <div class="body--main--secone--sectwo--pourc__nbr">
-                <h3 class="body--main--secone--sectwo--pourc--nbr__hed">15%</h3>
+                <h3
+                  class="body--main--secone--sectwo--pourc--nbr__hed"
+                  onclick="tips()"
+                >
+                  15%
+                </h3>
               </div>
               <div class="body--main--secone--sectwo--pourc__nbr">
-                <h3 class="body--main--secone--sectwo--pourc--nbr__hed">25%</h3>
+                <h3
+                  class="body--main--secone--sectwo--pourc--nbr__hed"
+                  onclick="tips()"
+                >
+                  25%
+                </h3>
               </div>
               <div class="body--main--secone--sectwo--pourc__nbr">
-                <h3 class="body--main--secone--sectwo--pourc--nbr__hed">50%</h3>
+                <h3
+                  class="body--main--secone--sectwo--pourc--nbr__hed"
+                  onclick="tips()"
+                >
+                  50%
+                </h3>
               </div>
               <div class="body--main--secone--sectwo--pourc__cstm">
                 <h3
                   class="body--main--secone--sectwo--pourc--nbr__hed"
                   style="color: hsl(186, 14%, 43%)"
+                  id="cstmhed"
+                  onclick="disAndHide()"
                 >
                   Custom
                 </h3>
+                <input
+                  class="body--main--secone--sectwo__inp1"
+                  type="number"
+                  id="cstminp"
+                  onchange="cstmtip()"
+                />
               </div>
             </div>
             <p class="body--main--secone--sectwo__txt">Number Of People</p>
@@ -100,10 +133,11 @@
               </svg>
 
               <input
-                type="text"
+                type="number"
                 class="body--main--secone--sectwo__inp"
                 placeholder="0"
                 id="inpnbrp"
+                onchange="changehed()"
               />
             </div>
           </section>
@@ -122,7 +156,7 @@
               </div>
               <h1 style="color: hsl(172, 67%, 45%)" id="hedtot">$0.00</h1>
             </div>
-            <button class="btn">
+            <button class="btn" onclick="res()">
               <h5
                 class="body--main--secone--sectwo--pourc--nbr__hed"
                 style="color: hsl(183, 93%, 12%); font-size: 16px"
