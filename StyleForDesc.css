@@ -2,7 +2,9 @@ body {
   background-color: hsl(185, 49%, 75%);
   font-size: 24px;
   font-family: "Space Mono", monospace;
-  padding: 1rem 5rem;
+  margin: auto;
+  width: 62%;
+  padding: 5rem 0 0 0;
 }
 
 .body--main--secone--sectwo__txt {
@@ -128,6 +130,7 @@ input::-webkit-inner-spin-button {
   border-radius: 5px;
   font-family: "Space Mono", monospace;
   color: hsl(183, 93%, 18%);
+  width: 100%;
 }
 
 #cstminp {
