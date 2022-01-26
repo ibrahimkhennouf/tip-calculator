@@ -120,6 +120,7 @@ body {
   border-radius: 5px;
   font-family: "Space Mono", monospace;
   color: hsl(183, 93%, 18%);
+  width: 100%;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
