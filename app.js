@@ -2,8 +2,11 @@ let changehed = () => {
   let bill = document.getElementById("inpbill").value;
   let pers = document.getElementById("inpnbrp").value;
   let tothed = document.getElementById("hedtot");
+  let hed = document.getElementById("hedtip").innerText;
+  let price = parseFloat(hed.replace(/[^\d\.]*/g, ""));
+  console.log(price);
   if (pers != 0) {
-    tothed.innerText = "$" + parseFloat(bill / pers).toFixed(2);
+    tothed.innerText = "$" + parseFloat(bill / pers + price).toFixed(2);
   } else {
     tothed.innerText = "$" + "0.00";
   }
